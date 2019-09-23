@@ -7,9 +7,10 @@ p,
 li {
   font-family: 'Open Sans', 'Arial', sans-serif;
   font-size: 1em;
-  color: #444444;
+  color: #444;
 }
 .name {
+  /* h1 i beleive */
   font-size: 3em;
   color: #33485e;
   text-transform: uppercase;
@@ -17,7 +18,36 @@ li {
   font-weight: 700;
 }
 .title {
+  /* this element is a paragraph */
   text-transform: uppercase;
   font-size: 1.5em;
   color: ##33485e;
+}
+.section {
+  /* h2 of just experience -- education and skills is another selector!!!!! */
+font-size: 1.5em;
+text-transform: uppercase;
+background-color:#33485e;
+color: white;
+font-weight: 400;
+}
+.position {
+  /* h3's, the title names of former positions i've held*/
+  text-weight: 700
+  font-size: 1.5em;
+}
+.organization {
+  /* h4's, organizations where i've worked */
+  text-weight: 400
+  font-size: 1.5em;
+}
+.dates {
+  /* work dates */
+  text-weight: 400;
+  font-style: italic;
+  font-size: 1em;
+}
+li {
+  /* LI's including contact info, skills and education */
+  font-size: 1em;
 }
