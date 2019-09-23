@@ -1,0 +1,11 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+li {
+  font-family: 'Open Sans', 'Arial', sans-serif;
+  font-size: 1em;
+  color: #444444
+}
