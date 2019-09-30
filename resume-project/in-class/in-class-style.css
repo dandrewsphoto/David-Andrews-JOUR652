@@ -1,7 +1,7 @@
 /*styles for my resume */
 
 #name,
-h2,
+#title,
 h3,
 h4,
 h5,
@@ -25,11 +25,25 @@ li {
   margin: 0 auto;
 }
 
-.title {
+#title {
   /* this element is a paragraph */
   text-transform: uppercase;
   font-size: 1.5em;
   color: ##33485e;
+  font-weight: 700;
+  text-align: center;
+  width: 60%;
+  min-width: 300px;
+  margin: 20px auto 0 auto;
+}
+
+.menu {
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+	display: inline;
 }
 
 .section-header {
@@ -64,7 +78,19 @@ max-width: 400px;
   margin: 2px 0px 0px 0px;
 }
 
+.description {
+  margin: 10px 0px 20px 0px;
+}
+
 li {
   /* LI's including contact info, skills and education */
   font-size: 1em;
+}
+
+#education {
+  margin: 40px 0px 0px 0px;
+}
+
+#skills {
+  margin: 40px 0px 0px 0px;
 }
