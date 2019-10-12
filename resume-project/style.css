@@ -27,6 +27,15 @@ li {
   margin: 0 auto;
 }
 
+#container {
+  text-align: center;
+  }
+
+  .jumbotron {
+    background-image: url("davidandrews-banner-3000.jpg" width="3000" height="300" alt="dancers banner")
+    background-size: cover;
+  }
+
 #title {
   /* this element is a paragraph */
   text-transform: uppercase;
