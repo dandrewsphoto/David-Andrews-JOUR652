@@ -32,8 +32,7 @@ li {
   }
 
   .jumbotron {
-    background-image: url("davidandrews-banner-3000.jpg" width="3000" height="300" alt="dancers banner")
-    background-size: cover;
+
   }
 
 #title {
@@ -118,5 +117,28 @@ li {
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
-  padding-bottom: 50px;
+  padding-bottom: 10px;
+}
+
+#body {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.navigationbar {
+  position: relative;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
+.box {
+  border-right: 5px solid #33485e;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
 }
