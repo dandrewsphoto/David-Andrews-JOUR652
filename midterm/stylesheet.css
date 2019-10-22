@@ -32,3 +32,13 @@ p {
   max-width: 900px;
   margin: 0 auto;
 }
+
+.image {
+  max-width: 100%
+}
+
+#caption {
+  font-size: 13px;
+  color: #424039;
+  font-style: italic;
+}
