@@ -1,6 +1,11 @@
+.headline {
+  padding-left: 20px;
+}
+
 .byline {
   color: gray;
   font-style: italic;
   font-size: 12px;
   padding-bottom: 25px;
+  padding-left: 20px;
 }
