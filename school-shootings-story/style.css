@@ -82,3 +82,18 @@ color: #000;
   font-family: Montserrat;
   text-align: center;
 }
+
+.introtext {
+  font-size: 1.25em;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.footer {
+background:#000;
+padding: 25px;
+color:#fff;
+font-family: 'Montserrat';
+}
