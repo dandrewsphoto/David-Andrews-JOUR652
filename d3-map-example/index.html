@@ -63,7 +63,7 @@ div.tooltip {
 			// Wait until all the files have floaded, then begin working through everything;
 			Promise.all([maryland]).then(function(values){
 					// Grab the SVG and begin adding "path" elements.
-			    svg.selectAll("path")
+          svg.selectAll("path")
 			        .data(values[0].features)
 			        .enter()
 			        .append("path")
