@@ -150,3 +150,23 @@ h3 {
 .graphic-container h4 {
   color: #373737;
 }
+
+.enderblock {
+  background:#f7f7f7;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.enderblock h4 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.grey {
+  color: #929192;
+}
+
+.red {
+  color: red;
+}
