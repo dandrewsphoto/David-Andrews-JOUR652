@@ -37,23 +37,23 @@
       <ul class="navbar-nav">
         <!-- Link 1 -->
         <li class="nav-item">
-          <a class="nav-link" href="#">History</a>
+          <a class="nav-link" href="#history">History</a>
         </li>
         <!-- End Link 1 -->
         <!-- Link 2 -->
         <li class="nav-item">
-          <a class="nav-link" href="#">Current Laws</a>
+          <a class="nav-link" href="#currentlaws">Current Laws</a>
         </li>
         <!-- End Link 2 -->
         <!-- Link 3 -->
         <li class="nav-item">
-          <a class="nav-link" href="#">UMD Riders</a>
+          <a class="nav-link" href="#umdriders">UMD Riders</a>
         </li>
         <!-- End Link 3 -->
         <!-- Link 4 -->
 
         <li class="nav-item">
-          <a class="nav-link" href="#">Policing The Sidewalks</a>
+          <a class="nav-link" href="#policingthesidewalks">Policing The Sidewalks</a>
         </li>
         <!-- End Link 4 -->
       </ul>
@@ -77,25 +77,6 @@
 </div>
 <!--End video -->
 
-
-<!-- Start hero Image component -->
-
-  <!-- <div class="container"> --> <!--Put this back in if we want padding on the hero image -->
-  <!-- <div class="row"> --> <!--Put this back in if we want padding on the hero image -->
-  <!--not currently active
-      <div class="col-md-12">
-          <figure>
-            <img class="img-fluid" src="http://placekitten.com/1200/600" />
-              <figcaption>
-                This is a caption placeholder for the kitten above.
-              </figcaption>
-          </figure>
-      </div> <!-- column end -->
-  <!-- </div> --> <!-- row end --> <!--Put this back in if we want padding on the hero image -->
-<!-- </div> --> <!--container end --> <!--Put this back in if we want padding on the hero image -->
-<!--End of commented out -->
-<!-- end hero image component-->
-
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -105,7 +86,7 @@
 <div class="container">
   <div class="row">
     <!--Start first paragraph component -->
-      <div class="col-md-8 offset-md-2">
+      <div class="col-md-8 offset-md-2" id="history">
 
         <h3></h3>
         <p class="bodycopy">Are electric scooters supposed to be ridden on the sidewalk or the street? Is one safer than another? Are riders required to wear a helmet? Who is enforcing all of these rules and where can riders find this information?</p>
@@ -127,9 +108,9 @@
                   </figure>
         <!-- end inline image component-->
 
-        <p class="bodycopy">In August, UMD installed 70 VeoRide e-scooters, 70 electric assist bikes and 150 pedal bikes at designated docking stations all around campus.</p>
+        <p class="bodycopy">In August, the University of Maryland installed 70 VeoRide e-scooters, 70 electric assist bikes and 150 pedal bikes at designated docking stations around campus.</p>
 
-        <p class="bodycopy">In an email statement, DOTs Assistant Director for Marketing and Communications Cara Fleck Plewinski says "In general, e-scooter operators and cyclists are subject to Maryland State Traffic laws, which indicates that you must ride on the road unless there's a local ordinance that allows you to ride on the sidewalk" That local ordinance is DOTs itself, which states that sidewalks should be used when necessary.</p>
+        <p class="bodycopy">In an email statement, Department Of Transportation (DOTs) Assistant Director for Marketing and Communications Cara Fleck Plewinski says "In general, e-scooter operators and cyclists are subject to Maryland State Traffic laws, which indicates that you must ride on the road unless there's a local ordinance that allows you to ride on the sidewalk" That local ordinance is DOTs itself, which states that sidewalks should be used when necessary.</p>
 
         <p class="bodycopy">"We encourage those using bikes and e-scooters to always wear a helmet and travel via roadways,” says Plewinski. “Sidewalks should be used when necessary, and individuals should yield to pedestrians to ensure safety."</p>
       </div>
@@ -139,7 +120,7 @@
   <div class="container">
     <div class="row">
       <!--Start first paragraph component -->
-        <div class="col-md-8 offset-md-2">
+        <div class="col-md-8 offset-md-2" id="currentlaws">
 
           <h3>Downloading the app</h3>
 
@@ -148,7 +129,8 @@
 
           <p class="bodycopy">As shown in the screenshots below, users can select the type of vehicle they're renting, and swipe through the vehicle-specific directions. The app doesn’t mention where to ride the scooter, any helmet laws that are on the books, or any additional corresponding traffic laws users must obey.</p>
 
-            </div>
+        </div> <!--End of Columns div-->
+
             <!--Beginning of image carousel -->
             <!--Start first paragraph component -->
               <div class="col-md-4 offset-md-4">
@@ -196,11 +178,12 @@
                 <span class="sr-only">Next</span>
               </a>
             </div>
-          </div>
-        </div>
-      </div>
+          </div> <!--End of the carousel columns div -->
 
-<!--End of image carousel -->
+          <!--End of image carousel -->
+
+        </div> <!--End of the row -->
+      </div> <!--End of the container -->
 
   <!-- Start text component -->
   <div class="container">
@@ -208,7 +191,7 @@
   <!--Start first paragraph component -->
       <div class="col-md-8 offset-md-2">
 
-        <p class="bodycopy">If riders wanted more information, they could in theory delay their pending ride a few more minutes and visit the VeoRide UMD page: </p>
+        <p class="bodycopy">If riders wanted more information, they could in theory delay their pending ride a few more minutes and visit the VeoRide UMD page:</p>
 
         <!-- Start inline Image component -->
               <div class="col-md-8 offset-md-2">
@@ -225,31 +208,44 @@
 
         <p class="bodycopy">In a May 2019 study, The CDC and Texas' Austin Public Health Department found that 1/3 of scooter-related injuries occur to first time riders. UMD DOT’s FAQ page does mention that first time riders are encouraged to attend a VeoRide instruction demo. These demos allow riders to try out the scooters before riding them on the street and advertise the ability to obtain a helmet, but the page doesn't mention where these demos are routinely held.</p>
 
+      </div> <!--End Columns -->
+    </div> <!--End row -->
+  </div> <!--End container -->
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 offset-md-2" id="umdriders">
+
         <h3>So how do UMD riders adhere to these guidelines?</h3>
 
         <p class="bodycopy">In order to get a first hand look at transit behavior, I scoped out two of the busiest footpaths on campus and logged every transit rider on a personal bicycle, e-scooter and e-bike.</p>
 
-      </div>
-    </div>
-  </div>
+      </div> <!--End Columns -->
+    </div> <!--End row -->
+  </div> <!--End container -->
 
 <!--This is our embedded scooter map graph -->
   <div class="container padding">
     <div class="row">
         <iframe src="https://uploads.knightlab.com/storymapjs/b9584b7efc5c0d73b93b55ae685654a0/scooter-traffic/draft.html" frameborder="0" width="100%" height="800"></iframe>
       <!--This is the end of our map graph -->
-    </div>
-  </div>
+    </div> <!--End row -->
+  </div> <!--End Container -->
 
-  <div class="col-md-8 offset-md-2">
-        <p class="bodycopy">The first stop was the intersection of Regents Drive and Campus drive between 8am-9am on a Wednesday morning.</p>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 offset-md-2">
+        <p class="bodycopy">The first stop was the intersection of Regents Drive and Campus Drive between 8am-9am on a Wednesday morning.</p>
 
-        <p class="bodycopy">As the main bus thoroughfare for WAMTA and University shuttles, this 4-way intersection just outside the DOTs office is a vital artery for navigating UMCP.</p>
+        <p class="bodycopy">As the main bus thoroughfare for WAMTA and University shuttles, this 4-way intersection just outside the DOTs office is a vital artery for navigating campus.</p>
 
         <p class="bodycopy">There were 105 transit riders between 8:13am and 9:13am on 11/7/19.</p>
 
         <p class="bodycopy">The most frequent mode of transit was a personal bicycle, accounting for 67 of the 105 riders who crossed the intersection. 53 of them rode on the street, 14 on the sidewalk. 53 of them didn't have helmets on, while only 14 of them had helmets.</p>
-      </div>
+
+      </div> <!--End columns -->
+    </div> <!--End Row -->
+  </div> <!--End Container -->
 
       <!-- Start inline Image component -->
                 <figure>
@@ -260,46 +256,90 @@
                 </figure>
       <!-- end inline image component-->
 
-
-  <div class="col-md-8 offset-md-2">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 offset-md-2">
         <p class="bodycopy">The next most frequent mode of transportation were scooters. There were 20 e-scooter riders, and 1 personal, non-electric scooter rider. 14 of them rode on the street, 6 of them rode on the sidewalk. Of the 21 scooter riders, 20 of them did not have a helmet on.</p>
 
-        <p class="bodycopy">The second spot observed was Campus Drive right in front of the Stamp Student Union Building between 1pm and 2pm on a Thursday. Every lane has construction barriers, with the part east of the Health Services building divided into a bus lane and a car lane.</p>
+        <p class="bodycopy">The second spot observed was Campus Drive right in front of the Stamp Student Union Building between 1pm and 2pm on a Thursday. Every lane has construction barriers, with the section east of the Health Services building divided into a bus lane and a car lane.</p>
 
-        <p class="bodycopy">Of the 43 riders total, 25 were riding personal bikes and 14 were riding e-scooters. This time only 3 bikers were on the street, and 22 were on the sidewalk. 6 of the 25 cyclists walked their bikes across the intersection, which only one person did at Regents Drive in the first study. All but 2 of the 14 scooterists were on the sidewalk. Only one scooterist was wearing a helmet.</p>
+        <p class="bodycopy">Of the 43 riders total, 25 were riding personal bikes and 14 were riding e-scooters. Only 3 bikers were on the street this time, and 22 were on the sidewalk. 6 of the 25 cyclists walked their bikes across the intersection, which only one person did at Regents Drive in the first study. All but 2 of the 14 scooterists were on the sidewalk. Only one scooterist was wearing a helmet.</p>
 
         <p class="bodycopy">Other vehicles observed were electric skateboards (3), e-bikes (3) and mopeds (8).</p>
 
+        </div> <!--End columns -->
+      </div> <!--End Row -->
+    </div> <!--End Container -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 offset-md-3">
+
         <h4>What vehicles have been observed on campus?</h4>
         <div class="graphic-container">
-          <div id="VehiclesOnCampusBarGraph"></div>
+          <div id="VehiclesOnCampusPieChart"></div>
         </div>
+
+      </div> <!--End Col-mid-6-->
+    </div> <!--End Row -->
+  </div> <!--End Container -->
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 offset-md-2">
+
+        <p class="bodycopy">95% of all scooter riders observied were not wearing a helmet, and 75% of all riders didn't have a helmet on, even though the UMD DOTs page strongly recomends all riders wear protective headgear. By Maryland Law, however, no one over the age of 16 is required to wear a helmet.</p>
+
+        <p class="bodycopy">Also, there are no helmets available to prospective riders at the docking stations. Two riders included in the study appeared to be first time riders, as they approached the docking station and spent about 5-7 minutes looking at their phones before riding. Once they had unlocked the e-scooters, they cautiously rode down Regents Drive on the sidewalk--no helmets in sight.</p>
+
+      </div> <!--End Col-mid-6-->
+    </div> <!--End Row -->
+  </div> <!--End Container -->
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 offset-md-3">
 
         <h4>Where do people ride on campus?</h4>
         <div class="graphic-container">
           <div id="StreetOrSidewalkChart"></div>
         </div>
 
-        <p class="bodycopy">That means 95% of scooter riders didn't have a helmet, and 75% of all riders didn't have a helmet on, even though the UMD DOTs page strongly recomends all riders wear protective headgear. By Maryland Law, however, no one over the age of 16 is required to wear a helmet.</p>
+    </div> <!--End Col-mid-6-->
+  </div> <!--End Row -->
+  </div> <!--End Container -->
 
-        <p class="bodycopy">There also aren't any helmets available to prospective riders at the docking stations. Two riders included in the study appeared to be first time riders, as they approached the docking station and spent about 5-7 minutes looking at their phones before riding. Once they had unlocked the scooters, they cautiously rode down Regents Drive on the sidewalk, no helmets in sight.</p>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 offset-md-2">
 
-        <p class="bodycopy">The data shows that this ambiguity of where to ride goes far beyond just e-scooters. 85 out of the 105 riders rode in the street, but 23 riders "felt it was necessary" to ride those same 4 roads on the sidewalk instead of the street regardless of the vehicle.  </p>
+        <p class="bodycopy">The data shows that this ambiguity of where to ride goes far beyond just e-scooters. 85 out of the 105 riders rode in the street, but 23 riders "felt it was necessary" to ride those same 4 roads on the sidewalk instead of the street regardless of the ve  hicle.</p>
+
+      <div id="policingthesidewalks">
 
         <h3>Policing the Sidwalk</h3>
 
-        <p class="bodycopy">Timothy Pilachowski, a UMD math professor, has been fighting to ensure pedestrian safety from bike accidents long before e-bikes and scooters motored their way into the conversation.</p>
+        <p class="bodycopy">Timothy Pilachowski, a UMD math professor, has been fighting to ensure pedestrian safety from bike accidents long before e-bikes and e-scooters motored their way into the conversation.</p>
 
-        <p class="bodycopy">Pilachowski agrees with the observational study that about 80-85% of people do ride on the street, but he's out to make sure that number is even higher as these vehicles with a max speed of 15-20 mph mix with pedestrians.</p>
+        <p class="bodycopy">Pilachowski agrees with the observational study that about 80-85% of people do ride on the street, but he's out to make sure that number is even higher as these vehicles with a max speed of 15-20 mph tango with pedestrians.</p>
 
-      </div>
+      </div> <!--End Policing the Sidewalk id Div -->
 
-      <div class="col-md-6 offset-md-3 padding">
-        <div class="videoWrapper">
+    </div> <!--End columns -->
+  </div> <!--End Row -->
+</div> <!--End Container -->
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 offset-md-3 padding video">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/FMVGMDVnLYE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-      </div>
 
+      </div> <!--End columns -->
+    </div> <!--End Row -->
+  </div> <!--End Container -->
+
+  <div class="container">
+    <div class="row">
       <div class="col-md-8 offset-md-2">
 
         <p class="bodycopy">"On campus, the speed limit for vehicles is 20 miles per hour. So these bicycles are doing car speed, or close to car speed, on a sidewalk, and sometimes weaving in and out of pedestrians. To me, that's asking for a problem because pedestrians don't walk anywhere near that fast," Pilachowski says.</p>
@@ -312,7 +352,7 @@
 
         <p class="bodycopy">30 lb scooters tangling with 1 ton cars may not be the best solution either. Daniel Cutaneo, a sophomore computer science major, shared a <a href="https://www.youtube.com/watch?v=uBbFa1FwAAM&feature=emb_logo" target="_blank">dash cam video</a> of a scooter rider turning right onto the street, and into oncoming traffic. That oncoming traffic was Cutaneo himself, and the two scooters collided.</p>
 
-        <p class="bodycopy">"When I'm on the roads, it kind of bothers me that these scooters break every single traffic law known to man," Cutaneo says, with his helmet sitting on top of his backpack.  "And they think they're invincible. They think they don't have to stop at stop signs, they don't yield at yield signs going around a circle."</p>
+        <p class="bodycopy">"When I'm on the roads, it kind of bothers me that these scooters break every single traffic law known to man," Cutaneo says, with his helmet sitting on top of his backpack. "And they think they're invincible. They think they don't have to stop at stop signs, they don't yield at yield signs going around a circle."</p>
 
         <p class="bodycopy">Cutaneo says scooters disobeying traffic laws in the streets is extremely dangerous, given the lack of protection scooter riders have compared to the cars that share the same space.</p>
 
@@ -326,10 +366,12 @@
 
         <p class="bodycopy">"There are places that are very wide, you could paint bicycle lanes on the sidewalk and still have room for pedestrians."</p>
 
-        <p class="bodycopy">DOTs didn't say if there were any plans to build bike lanes to accompany the influx of transit options, but said they continue to monitor best practices to align with the university’s ever-changing community.</p>
+        <p class="bodycopy">DOTs didn't say if there were any plans to build bike lanes to accomodate the influx of transit options, but said they continue to monitor best practices to align with the university’s ever-changing community.</p>
 
-              </div>
-        <!-- End first paragraph component -->
+        </div> <!--End columns -->
+      </div> <!--End Row -->
+    </div> <!--End Container -->
+        <!-- End of text story -->
 
 
       <!-- c3 script-->
@@ -356,6 +398,28 @@
 
     <!--//beginning of pie chart-->
       var chart3 = c3.generate({
+        bindto: '#VehiclesOnCampusPieChart',
+        data: {
+          // iris data from R
+          columns: [
+            ['Personal Bicycle', 92],
+            ['e-scooter', 35],
+            ['e-bike', 3],
+            ['Other', 12],
+          ],
+          type : 'pie',
+          onclick: function (d, i) { console.log("onclick", d, i); },
+          onmouseover: function (d, i) { console.log("onmouseover", d, i); },
+          onmouseout: function (d, i) { console.log("onmouseout", d, i); }
+        },
+        color: {
+          pattern: ['#455380', '#FF0000', '#ee6a4b', '#60c4b2', '#973895']
+        }
+      });
+    <!--//end of 1st pie chart-->
+
+    <!--//beginning of pie chart-->
+      var chart3 = c3.generate({
         bindto: '#StreetOrSidewalkChart',
         data: {
           // iris data from R
@@ -372,7 +436,8 @@
           pattern: ['#455380', '#FF0000', '#ee6a4b', '#60c4b2', '#973895']
         }
       });
-    <!--//end of pie chart-->
+    <!--//end of 2nd pie chart-->
+
     </script>
     <!-- End c3 script-->
 
@@ -388,6 +453,44 @@
     </div>
   </div>
   <!-- End Footer -->
+
+  <script>
+  // Find all YouTube videos
+var $allVideos = $("iframe[src^='//www.youtube.com']"),
+
+  // The element that is fluid width
+  $fluidEl = $("body");
+
+// Figure out and save aspect ratio for each video
+$allVideos.each(function() {
+
+$(this)
+  .data('aspectRatio', this.height / this.width)
+
+  // and remove the hard coded width/height
+  .removeAttr('height')
+  .removeAttr('width');
+
+});
+
+// When the window is resized
+$(window).resize(function() {
+
+var newWidth = $fluidEl.width();
+
+// Resize all videos according to their own aspect ratio
+$allVideos.each(function() {
+
+  var $el = $(this);
+  $el
+    .width(newWidth)
+    .height(newWidth * $el.data('aspectRatio'));
+
+});
+
+// Kick off one resize to fix all videos on page load
+}).resize();
+  </script>
 
 </body>
 </html>
